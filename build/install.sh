@@ -8,5 +8,4 @@ apt-get update
 apt-get dist-upgrade -y --no-install-recommends
 
 # Install python
-$minimal_apt_get_install \
-  python python-dev python-pip python-virtualenv
+$minimal_apt_get_install python python-pip
